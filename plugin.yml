@@ -1,0 +1,14 @@
+name: AutoSneak
+main: lowbrain.autosneak.AutoSneak
+version: 1.0.0
+author: SquallSeeD31, manniL
+commands:
+  sneak:
+    description: Toggle sneaking on or off.
+    usage: /sneak [on|off] - Toggles (or sets) sneak status.
+permissions:
+  autosneak.sneak:
+    default: false
+  autosneak.auto:
+    default: false
+      
